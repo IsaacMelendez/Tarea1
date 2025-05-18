@@ -82,7 +82,8 @@ public class NuevoProyecto extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnMostrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMostrarActionPerformed
-        txtArea.setText("HOLA SOY GABRIEL");
+        txtArea.append("HOLA SOY GABRIEL"+"/n");
+        
     }//GEN-LAST:event_btnMostrarActionPerformed
 
     /**
